@@ -3,7 +3,7 @@ from config import TELEGRAM_BOT_TOKEN
 from utils.yandex_speech import synthesize_text
 from utils.intent_detector import ask_yandex_gpt
 
-bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
+bot = telebot.TeleBot(8217436535:AAEghCWc2y-2leOjxzkJdUnbae88QIqvtXw)
 
 @bot.message_handler(commands=['start'])
 def start(message):
